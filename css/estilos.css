@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #e2e0e0;
+}
+header.cabeceraPrincipal,nav.menuPrincipal,section.galeriaPrincipal,section.noticia1,section.noticia2,footer.piePagina,section.sponsor1,section.sponsor2,section.sponsor3,section.sponsor4,
+section.sponsor5{
+	background-color: rgb(148,250,46);
+	color: rgb(47,83,10);
+	width: 90%;
+	margin: 0 auto;
+}
+header.cabeceraPrincipal h1{
+	padding: 1em;
+	width: 20%;
+	display: inline-block;
+}
+section.seccionCabecera{
+	width: 70%;
+	display: inline-block;
+	text-align: right;
+
+}
+nav.menuPrincipal{
+	margin-top: 2px;
+
+}
+nav.menuPrincipal div{
+padding: 1em;
+text-align: center;
+}
+section.galeriaPrincipal{
+	margin-top: 2px;
+	height: 450px;
+}
+section.noticia1{
+	float:left;
+	margin-left: 4%;
+}
+main{
+	padding: 1em;
+}
+section.noticia1,section.noticia2{
+	height: 240px;
+	width: 45%;
+}
+section.noticia2{
+	
+	float:right;
+	margin-right: 4%;
+}
+
+aside.sponsor{
+
+	height: 150px;
+	
+}
+aside.sponsor{
+	margin-top: 15%;
+	text-align: center;
+}
+footer.piePagina h5{
+
+	width: 20%;
+	display: inline-block;
+}
+
+section.sponsor0{
+	padding: 1em;
+	text-align: center;
+
+}
+section.sponsor1,section.sponsor2,section.sponsor3,section.sponsor4,section.sponsor5{
+
+	height: 70px;
+	width: 14%;
+	float:right;
+	margin-right: 5%;
+
+}
